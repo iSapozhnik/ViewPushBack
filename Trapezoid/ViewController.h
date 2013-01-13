@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+- (IBAction)playAnimation:(id)sender;
+- (IBAction)backAnimation:(id)sender;
 @end

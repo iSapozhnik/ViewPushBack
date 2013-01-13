@@ -18,6 +18,7 @@
 		BFE3654E16A18E58001360E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE3654D16A18E58001360E3 /* Default-568h@2x.png */; };
 		BFE3655116A18E58001360E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE3655016A18E58001360E3 /* ViewController.m */; };
 		BFE3655416A18E58001360E3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFE3655216A18E58001360E3 /* ViewController.xib */; };
+		BFE3655B16A18F11001360E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE3655A16A18F11001360E3 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		BFE3654F16A18E58001360E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BFE3655016A18E58001360E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BFE3655316A18E58001360E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BFE3655A16A18F11001360E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE3655B16A18F11001360E3 /* QuartzCore.framework in Frameworks */,
 				BFE3653816A18E58001360E3 /* UIKit.framework in Frameworks */,
 				BFE3653A16A18E58001360E3 /* Foundation.framework in Frameworks */,
 				BFE3653C16A18E58001360E3 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		BFE3653616A18E58001360E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFE3655A16A18F11001360E3 /* QuartzCore.framework */,
 				BFE3653716A18E58001360E3 /* UIKit.framework */,
 				BFE3653916A18E58001360E3 /* Foundation.framework */,
 				BFE3653B16A18E58001360E3 /* CoreGraphics.framework */,
