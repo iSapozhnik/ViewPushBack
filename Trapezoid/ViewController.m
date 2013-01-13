@@ -68,8 +68,6 @@ typedef void(^Completion)(BOOL finished);
                 handler(YES);
             }];
         }];
-    } else {
-        return;
     }
 }
 
@@ -89,8 +87,6 @@ typedef void(^Completion)(BOOL finished);
                 handler(YES);
             }];
         }];
-    } else {
-        return;
     }
 }
 
